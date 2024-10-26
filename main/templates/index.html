@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+<div class="welcome">
+    <h1>Welcome to IMC calculator</h1>
+</div>
+
+<div class="importancia">
+    <h3>A Importância dos hábitos saudáveis na sua vida:</h3>
+    <p>A saúde e os cuidados pessoais são essenciais para o bem-estar físico, mental e social. Manter hábitos saudáveis, como alimentação equilibrada, 
+        exercício físico regular e sono adequado, contribui para o fortalecimento do sistema imunológico, 
+        prevenção de doenças e aumento da longevidade. Além disso, cuidar da saúde mental, através de momentos de lazer, controle do estresse e apoio emocional, 
+        ajuda a melhorar a qualidade de vida e as relações interpessoais. Práticas de autocuidado, como higiene, descanso e acompanhamento médico, 
+        ajudam a manter o corpo e a mente em equilíbrio, promovendo uma vida mais saudável e plena.</p>
+</div>
+
+<div class="imc">
+    <h3>O que é IMC? Para quê ele serve?</h3>
+    <p>O IMC (Índice de Massa Corporal) é uma medida que relaciona o peso de uma pessoa com a sua altura para indicar se
+         está dentro de uma faixa considerada saudável. Calculado dividindo o peso (em kg) pelo quadrado da altura (em metros), 
+         o IMC é usado para avaliar rapidamente se uma pessoa está abaixo do peso, com peso normal, sobrepeso ou obesidade. 
+         Ele auxilia profissionais de saúde a identificar riscos associados ao peso corporal, como doenças cardíacas, 
+         diabetes e hipertensão, mas não leva em conta outros fatores como composição corporal e distribuição de gordura.</p>
+</div>
+
+<div class="button">
+    <a href="{% url 'imc' %}">Calcule seu IMC</a>
+</div>
+
+{% endblock %}

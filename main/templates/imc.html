@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+{% endblock %}
+{% block content %}
+    <div class="calculadora">
+        <h1>Calculadora de IMC:</h1>
+    </div>
+    
+    <div class="calc-imc">
+        <h3>Digite sua altura (em centimetros) e seu peso (em quilos)</h3>
+        <div class="form">
+            <p>Altura(cm):</p>
+            <input type="number" name="txtaltura" id="txtaltura" min="0">
+            <p>Peso(kg):</p>
+            <input type="number" name="txtpeso" id="txtpeso" min="0">
+            <p>
+                <input type="button" value="Calcular" onclick="Calcular()">
+            </p>
+        </div>
+
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
+        </div>
+    </div>
+
+{% block script %}
+    <script src="{% static 'scripts/script.js' %}"></script>
+{% endblock %}
+{% endblock %}
