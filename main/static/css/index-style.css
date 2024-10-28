@@ -1,0 +1,50 @@
+.welcome{
+    text-align: center;
+    color: #513965;
+}
+.importancia{
+    background-color: #513965;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #ffe2b6;
+    background-image: linear-gradient(to right,#724b92, #513965);
+}
+
+.imc{
+    background-color: #513965;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #ffe2b6;
+    margin-top: 20px;
+    background-image: linear-gradient(to right,#724b92, #513965);
+}
+
+.button{
+    background-color: #513965;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    max-width: 100px;
+    margin: 0 auto;
+    color: #ffe2b6;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #ffe2b6;
+    color: #513965;
+}
+
+a:visited{
+    color: #ffbd99;
+}
+
+a{
+    text-decoration: none;
+}

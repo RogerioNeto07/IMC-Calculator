@@ -2,7 +2,9 @@
 {% load static %}
 
 {% block head %}
+<link rel="stylesheet" href="{% static 'css/imc-style.css' %}">
 {% endblock %}
+
 {% block content %}
     <div class="calculadora">
         <h1>Calculadora de IMC:</h1>
@@ -16,7 +18,7 @@
             <p>Peso(kg):</p>
             <input type="number" name="txtpeso" id="txtpeso" min="0">
             <p>
-                <input type="button" value="Calcular" onclick="Calcular()">
+                <input class="button" type="button" value="Calcular" onclick="Calcular()">
             </p>
         </div>
 

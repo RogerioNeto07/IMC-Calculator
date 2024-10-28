@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c10212071e.js"></script>
-    <title>IMC Calculator</title>
+    <link rel="stylesheet" href="{% static 'css/base-style.css' %}"/>
     {% block head %}
     {% endblock %}
+    <title>IMC Calculator</title>
 </head>
 <header>
-    <a href="{% url 'index' %}"><i class="fa-solid fa-scale-balanced" style="color: #543196;"></i></a>
-    <h5>IMC Calculator</h5>
+    <div class="header">
+        <a href="{% url 'index' %}"><i class="fa-solid fa-scale-balanced" style="color: #C580AA;"></i></a>
+        <h5>IMC Calculator</h5>
+    </div>
 </header>
 <body>
     <main>

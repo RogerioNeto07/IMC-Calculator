@@ -1,0 +1,27 @@
+.calculadora{
+    text-align: center;
+}
+
+.calc-imc{
+    background-color: #513965;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #ffe2b6;
+    background-image: linear-gradient(to right,#724b92, #513965);
+}
+
+input{
+    outline: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.button{
+    outline: none;
+    background-color: #ffe2b6;
+    text-decoration: none;
+    border: none;
+}
